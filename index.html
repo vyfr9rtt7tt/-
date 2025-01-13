@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hulk Website</title>
+    <style>
+        @media (max-width: 768px) {
+            header {
+                font-size: 1.5em;
+            }
+            .container {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            .card {
+                width: 100%;
+                margin: 10px 0;
+            }
+            footer ul li {
+                display: block;
+                margin: 5px 0;
+            }
+        }
+        header {
+            background: linear-gradient(90deg, #32b132, #3fbd3f, #1a6b1a);
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            font-size: 2em;
+            font-weight: 700;
+        }
+        body {
+            background-image: url('./818696.700xp.jpg');
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: linear-gradient(90deg, #32b132, #3fbd3f #0b2e0b );
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            min-height: 80vh;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 10px;
+            width: 300px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card img {
+            width: 100%;
+            border-bottom: 1px solid #ddd;
+        }
+        .card h3 {
+            margin: 0;
+            padding: 15px;
+            text-align: center;
+        }
+        .card p {
+            padding: 0 15px 15px;
+            text-align: center;
+
+        }
+        footer {
+            background-color: rgba(39, 37, 37, 0.493);
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        footer input[type="text"] {
+            padding: 5px;
+            margin-right: 10px;
+        }
+        footer button {
+            padding: 5px 10px;
+        }
+        footer ul {
+            list-style: none;
+            padding: 0;
+        }
+        footer ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        footer ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        footer ul li a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hulk Fan Page</h1>
+    </header>
+    <div class="container">
+        <div class="card">
+            <img src="./images (1).jpg" alt="Hulk Image 1">
+            <h3>Hulk Smash</h3>
+            <p>The Incredible Hulk in action.</p>
+        </div>
+        <div class="card">
+            <img src="./19582.jpg" alt="Hulk Image 2">
+            <h3>Hulk Roar</h3>
+            <p>The Hulk showing his strength.</p>
+        </div>
+        <div class="card">
+            <img src="./images (2).jpg" alt="Hulk Image 3">
+            <h3>Hulk Power</h3>
+            <p>The Hulk ready for battle.</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Hulk Fan Page. All rights reserved.</p>
+        <div>
+            <input type="text" placeholder="Search...">
+            <button type="button">Search</button>
+        </div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
